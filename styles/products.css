@@ -1,0 +1,7 @@
+.main {
+    padding: 0px 70px 70px 70px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 100px;
+}

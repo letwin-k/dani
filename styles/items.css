@@ -5,26 +5,32 @@
     display: flex;
 }
 
-.bread {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-}
 
 .heading-text {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #294A70;
     font-size: 55px;
     font-weight: 450;
-    width: 90%; 
-    margin-left: 5%;
+    width: 90%; /* Ensures it spans the full width */
+    text-align: left; /* Aligns text within its own space */
 }
 
 
 hr {
     height: 1px;
     background-color: #294A70;
-    width: 90%;
-    text-align: left; 
+}
 
+
+
+
+products.css:
+
+
+.main {
+    padding: 0px 70px 70px 70px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 100px;
 }
