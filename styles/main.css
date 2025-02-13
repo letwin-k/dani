@@ -5,19 +5,27 @@
     display: flex;
 }
 
-.bread {
+.subheading-section {
     display: flex;
     flex-direction: column;
     flex: 1;
 }
 
-.heading-text {
+.subheading-text {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #294A70;
     font-size: 55px;
     font-weight: 450;
-    width: 90%; 
     margin-left: 5%;
+}
+
+.breadcrumb {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #294A70;
+    font-size: 15px;
+    margin-left: 5%;
+    margin-top: 1%;
+    margin-bottom: 4%;
 }
 
 
@@ -25,6 +33,6 @@ hr {
     height: 1px;
     background-color: #294A70;
     width: 90%;
-    text-align: left; 
+    margin: 0 auto;
 
 }

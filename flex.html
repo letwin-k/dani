@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Example</title>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: row;
+            height: 300px; /* Fixed height to see the effect */
+            border: 2px solid black;
+        }
+        .box {
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        .box1 { background: red; flex: 1; }   /* Takes equal space */
+        .box2 { background: blue; flex: 2; }  /* Takes double the space */
+        .box3 { background: green; flex: 1; } /* Takes equal space */
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="box box1">Flex: 1</div>
+        <div class="box box2">Flex: 2</div>
+        <div class="box box3">Flex: 1</div>
+    </div>
+
+</body>
+</html>
