@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.faq {
+    margin-bottom: 10px;
+}
+
+.faq label {
+    display: block;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f9f9f9;
+}
+
+.faq input {
+    display: none;
+}
+
+.faq .content {
+    display: none;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 5px;
+    background: #eee;
+}
+
+.faq input:checked + .content {
+    display: block;
+}

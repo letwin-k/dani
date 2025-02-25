@@ -1,0 +1,31 @@
+.faq-item {
+    margin-bottom: 10px;
+}
+
+.faq-question {
+    font-weight: bold;
+    cursor: pointer;
+    display: block;
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.faq-answer {
+    display: none;
+    padding: 10px;
+    background: #eee;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+/* Show answer when checkbox is checked */
+input:checked + .faq-answer {
+    display: block;
+}
+
+/* Hide the actual checkbox */
+input {
+    display: none;
+}
